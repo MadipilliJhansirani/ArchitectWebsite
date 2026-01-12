@@ -263,7 +263,7 @@ input {
     font-size: 45px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .proj-img {
     grid-template-columns: repeat(1, 1fr);
     margin: 30px 0px;
@@ -280,8 +280,9 @@ input {
     padding: 15px 0;
   }
   .nav-links {
-    padding-right: 0;
-    gap: 30px;
+    padding-right: 0px;
+    gap: 15px;
+    justify-content: center;
   }
   .nav a {
     padding: 10px;
@@ -291,7 +292,10 @@ input {
     color: #19a6c5;
   }
   .nav-links a {
-    padding: 8px 16px;
+    position: relative;
+    padding: 5px 12px;
+    padding-bottom: 5px;
+    display: inline-block;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 4px;
   }
@@ -304,11 +308,12 @@ input {
     background-color: grey;
   }
   .logo-text {
-    font-size: 35px;
+    font-size: 30px;
   }
   button {
     padding: 12px 0;
   }
+  
 }
 
 /* For .nav-links highlight
