@@ -36,7 +36,7 @@ html {
 body,
 button,
 input {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
   margin: 0 auto;
