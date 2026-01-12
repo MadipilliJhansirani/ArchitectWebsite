@@ -36,7 +36,8 @@ html {
 body,
 button,
 input {
-  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Cabin", Calibri, "Trebuchet MS",
+    sans-serif;
 }
 .container {
   margin: 0 auto;
